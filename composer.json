@@ -1,0 +1,19 @@
+{
+    "name": "cdfrm/magento2-twilio",
+    "description": "Magento 2 CE Message with Twilio",
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version": "1.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "CodeFarm\\Twilio\\": ""
+        }
+    }
+}
+
